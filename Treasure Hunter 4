@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int n,x,y;
+    scanf("%d%d%d",&n,&x,&y);
+    int r1=n*x/100;
+    printf("%d\n",r1);
+    int r2=n-r1;
+    int r3=r2*y/100;
+    printf("%d\n",r3);
+    int r4=(r2-r3)/3;
+    printf("%d",r4); 
+    return 0;
+}
