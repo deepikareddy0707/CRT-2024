@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+   int a=34;
+   printf("value of a=%i\n",a);
+   printf("Address of a=%u\n");
+   printf("value of a=%d\n",*(&a));
+    return 0;
+}
