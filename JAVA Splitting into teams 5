@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+      int c,n;
+      c=s.nextInt();
+      n=s.nextInt();
+      int r1=c/n;
+      int r2=c%n;
+      System.out.println("The number of students in each team is "+r1+" and left out is "+r2);
+    
+    }
+}
