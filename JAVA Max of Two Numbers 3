@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      Scanner s=new Scanner(System.in);
+       long num1 =s.nextLong();
+       long num2 =s.nextLong();
+       long max = Math.max(num1, num2);
+       System.out.println(max);
+    }
+}
