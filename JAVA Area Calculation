@@ -1,0 +1,24 @@
+import java.util.*;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        
+      
+        int S = s.nextInt();
+        int l= s.nextInt();
+        int b = s.nextInt();
+        float r = s.nextFloat();
+        
+        int A= S* S;
+        int R = l * b;
+        float C = (float)3.14 * r * r;
+        
+        System.out.println(A);
+        System.out.println(R);
+        System.out.printf("%.2f\n", C);
+        
+        
+    }
+}
