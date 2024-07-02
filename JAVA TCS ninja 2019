@@ -38,8 +38,7 @@ class Test
                 units=units+10;
                 dir='R';
             }
+}
              System.out.println(x+" "+y);
         }
-       
-    }
 }
