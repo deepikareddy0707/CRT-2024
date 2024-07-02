@@ -1,0 +1,12 @@
+import java.util.*;
+class Test {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        String s1="java is simple language";
+        String res[]=s1.split(" ");
+        System.out.println(Arrays.toString(res));
+        String res1[]=s1.split("simple");
+        System.out.println(Arrays.toString(res1));
+    }
+    }
+           
