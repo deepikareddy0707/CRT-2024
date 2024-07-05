@@ -1,0 +1,13 @@
+  class Sample
+{
+    void m1()
+    {
+        System.out.println("Insatnce method");
+    }
+}
+ public class Test {
+    public static void main(String[] args) {
+Sample s1=new Sample();
+        s1.m1();
+    }
+}
