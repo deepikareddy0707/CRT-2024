@@ -1,0 +1,16 @@
+class Test {
+    public static void main(String[] args) {
+        System.out.println("Java");
+        try
+        {
+            Thread.sleep(3000);
+        }
+        catch(InterruptedException e)
+        {
+                    System.out.println(e);
+
+        }
+                System.out.println("Python");
+
+    }
+}
